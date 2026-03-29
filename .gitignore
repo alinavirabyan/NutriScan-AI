@@ -1,0 +1,190 @@
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# ============================================================
+# Virtual Environment
+# ============================================================
+venv/
+.venv/
+env/
+ENV/
+.env/
+.venv/
+.virtualenv/
+
+# ============================================================
+# IDE and Editor Files
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.suo
+*.user
+*.sln
+*.bak
+*.orig
+
+# ============================================================
+# Jupyter Notebook
+# ============================================================
+.ipynb_checkpoints/
+*.ipynb
+
+# ============================================================
+# Project Specific - Large Files
+# ============================================================
+
+# Models (large files - can be several MB)
+models/tesseract/*.traineddata
+models/backups/
+models/versions/
+
+# Datasets (VERY LARGE - 20GB+)
+datasets/
+dataset/
+data/
+
+# Training outputs
+outputs/
+ocr_pipeline/
+output/
+
+# Logs
+*.log
+logs/
+outputs/logs/
+
+# Temporary files
+*.tmp
+/tmp/
+temp/
+
+# Checkpoints (intermediate training files)
+checkpoints/
+*.checkpoint
+*.lstmf
+*.lstm
+*.box
+
+# Cropped images from training
+outputs/training_data/
+outputs/lstmf_files/
+outputs/splits/
+outputs/checkpoints/
+
+# ============================================================
+# Experiment results
+# ============================================================
+experiments/
+*.csv
+*.json
+
+# ============================================================
+# Environment variables (contains bot token!)
+# ============================================================
+.env
+.env.local
+.env.production
+.env.development
+
+# ============================================================
+# Telegram Bot specific
+# ============================================================
+*.pid
+*.lock
+
+# ============================================================
+# PDF reports and temporary files
+# ============================================================
+*.pdf
+/tmp/
+*.tmp.pdf
+
+# ============================================================
+# Test images and outputs
+# ============================================================
+tests/test_images/*_enhanced.*
+tests/test_images/enhanced_*
+tests/test_images/ocr_comparison/
+tests/enhanced_results/
+tests/results/
+
+# ============================================================
+# Charts and visualizations
+# ============================================================
+*.png
+*.jpg
+*.jpeg
+outputs/charts/
+!requirements.png
+
+# ============================================================
+# Documentation build
+# ============================================================
+docs/_build/
+site/
+
+# ============================================================
+# OS specific
+# ============================================================
+Thumbs.db
+.DS_Store
+.directory
+Desktop.ini
+
+# ============================================================
+# Backup files
+# ============================================================
+*.bak
+*.backup
+*.old
+*.orig
+
+# ============================================================
+# Compression files
+# ============================================================
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ============================================================
+# Database files
+# ============================================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================================================
+# Cache directories
+# ============================================================
+.cache/
+.cache/
+*.cache
+*.egg-info/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ============================================================
+# Kaggle dataset cache
+# ============================================================
+.kaggle/
+~/.kaggle/
