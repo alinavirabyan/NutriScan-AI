@@ -187,4 +187,10 @@ Desktop.ini
 # Kaggle dataset cache
 # ============================================================
 .kaggle/
-~/.kaggle/
+~/.kaggle/model /
+ocr/
+run_training_test.py
+telegram_bot/
+tests/
+training/
+main.py
