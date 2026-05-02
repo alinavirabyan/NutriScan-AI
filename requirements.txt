@@ -1,0 +1,9 @@
+python-telegram-bot==20.7
+pytesseract==0.3.10
+easyocr==1.7.1
+opencv-python==4.9.0.80
+Pillow==10.2.0
+reportlab==4.1.0
+requests==2.31.0
+python-dotenv==1.0.0
+numpy==1.26.4
