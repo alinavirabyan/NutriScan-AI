@@ -4,7 +4,7 @@
 <img src="https://img.shields.io/badge/Telegram-Bot-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"/>
 <img src="https://img.shields.io/badge/Tesseract-OCR-orange?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Ollama-Mistral_7B-7C3AED?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge"/>
+
 
 # 🍎 NutriScan AI
 
